@@ -2,7 +2,7 @@ package resol.CettourS;
 
 import resol.CettourS.ejercicio1.Ejercicio1;
 import resol.CettourS.ejercicio2.Ejercicio2;
-import resol.CettourS.ejercicio3.Ejercicio3;
+import resol.CettourS.ejercicio3.Ejercicio3;Tu ubicación
 import resol.CettourS.ejercicio4.Ejercicio4;
 import resol.CettourS.ejercicio5.Ejercicio5;
 

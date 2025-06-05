@@ -5,7 +5,6 @@ public class Estudiante {
     private int edad;
     private double notaFinal;
 
-    // Constructor
     public Estudiante(String nombre, int edad, double notaFinal) {
         this.nombre = nombre;
         this.edad = edad;
