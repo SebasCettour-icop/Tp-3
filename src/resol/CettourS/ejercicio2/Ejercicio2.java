@@ -7,7 +7,7 @@ public class Ejercicio2 {
 
         System.out.println("----- Vehículo 1 -----");
         v1.mostrarInformacion();
-        v1.recorrer(600); // Simula recorrido
+        v1.recorrer(600);
         v1.proximoServicio();
 
         System.out.println("\n----- Vehículo 2 -----");
