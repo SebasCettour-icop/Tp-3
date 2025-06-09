@@ -7,6 +7,7 @@ public class Administrativo extends Empleado implements Calculable {
         super(nombre, dni, sueldoBase, antiguedad);
         this.remoto = remoto;
     }
+
     public boolean isRemoto() {
         return remoto;
     }
@@ -15,7 +16,6 @@ public class Administrativo extends Empleado implements Calculable {
         this.remoto = remoto;
     }
 
-    @Override
     public double calcularSalario() {
         double descuento = remoto ? 0.12 : 0.08;
         double salarioNeto = getSueldoBase() * (1 - descuento);
@@ -31,7 +31,6 @@ public class Administrativo extends Empleado implements Calculable {
         return salarioNeto;
     }
 
-    @Override
     public void mostrarInformacion() {
         System.out.println("=== ADMINISTRATIVO ===");
         System.out.println("Nombre: " + getNombre());
