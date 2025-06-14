@@ -16,7 +16,6 @@ public class Produccion extends Empleado implements Calculable {
         this.turno = turno.toLowerCase();
     }
 
-    @Override
     public double calcularSalario() {
         double descuento;
 
@@ -42,7 +41,6 @@ public class Produccion extends Empleado implements Calculable {
         return salarioNeto;
     }
 
-    @Override
     public void mostrarInformacion() {
         System.out.println("=== OPERARIO DE PRODUCCIÓN ===");
         System.out.println("Nombre: " + getNombre());

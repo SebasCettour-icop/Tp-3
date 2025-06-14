@@ -25,7 +25,7 @@ public class Estudiante {
         } else {
             System.out.println("Estado: Promocionó");
         }
-        System.out.println(); // Línea en blanco para separación
+        System.out.println();
     }
 }
 
